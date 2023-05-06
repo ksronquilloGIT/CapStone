@@ -44,7 +44,7 @@
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu-area">
                     <li class="nav-but">
-                        <a class="btn btn-outline-light" href="#">LOG IN</a>
+                        <a class="btn btn-outline-light" href="/login">LOG IN</a>
                     </li>
 {{--                     <li class="nav-but">
                         <a class="btn btn-outline-light" href="#">SIGN UP</a>

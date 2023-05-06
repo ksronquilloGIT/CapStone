@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\RouteSignatureParameters;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -18,3 +19,7 @@ Route::get('/', [UserController::class, 'homepage']);
 Route::get('/about', [UserController::class, 'aboutpage']);
 Route::get('/services', [UserController::class, 'servicepage']);
 Route::get('/contact', [UserController::class, 'contactpage']);
+
+Route::get('/login', function () {
+    return view('login');
+});
