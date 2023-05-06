@@ -79,9 +79,8 @@
   
                 <div class="mt-4">
                     <!-- Facebook -->
-                    <a type="button" class="btn btn-floating btn-primary btn-lg"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <!-- Dribbble -->
+                    <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+                    <!-- GMAIL -->
                     <a type="button" class="btn btn-floating btn-success btn-lg"><i class="fab fa-google"></i></a>
                     <!-- Twitter -->
                     <a type="button" class="btn btn-floating btn-info btn-lg"><i class="fab fa-twitter text-white"></i></a>

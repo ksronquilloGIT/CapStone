@@ -224,7 +224,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(./images/hero-img-2.jpg);
+	background-image: url(storage/hero-img-2.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
