@@ -343,14 +343,8 @@ section p {
   border-radius: 20px;
 }
 
-.img-fluid {
-  border-radius: 20px;
-}
-
 .btn-primary {
-  background-color: #FF9F29;
   border: #FF9F29;
-
 }
 
 .btn-primary:hover {
