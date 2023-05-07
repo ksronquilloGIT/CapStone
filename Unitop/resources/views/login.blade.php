@@ -7,7 +7,7 @@
                 <div class="card-body p-0">
                     <div class="row">
                         <div class="col-lg-6 d-none d-lg-flex">
-                            <img src="{{ URL('images/images.png') }}" alt="logo">
+                            <img src="{{ URL('storage/image3.png') }}" alt="logo">
                         </div>
                         <div class="col-lg-6">
                             <div class="p-5">
@@ -33,6 +33,5 @@
             </div>
         </div>
     </div>
-</div>
 
 </x-layout>
