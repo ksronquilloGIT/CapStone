@@ -3,14 +3,44 @@
     
  
     <!-- ======= About Us Section ======= -->
-    <div class="row bg-white p-5">
+{{--     <div class="row bg-white p-5">
         <div class="col-lg-12 text-center">
             <h2>ABOUT US</h2>
             <p class="text-sm-left">A more than 30 years in business that combines factory production and wholesale, Unitop Metalwire Technologies actively serves the market by engaging in a variety of activities, including project design, product development, large-scale production, and some on-field building. 
               We are actively serving the Metalwire market in the Philippines, including the NCR, Eastern Visayas, North, and South Luzon markets. Our goals are to "strictly control the quality for survival in the industry and gaining reputation for development of the enterprise" and to continuously expand the local market.
               Our constant goal is to be honest and prioritize the demands of our customers. Our motto is "serving clients totally and innovating to serve you best."Everyone is invited to stop by and talk about future collaboration. We are eager to collaborate with you in the coming century when the flow of the global economy sweeps us both together to produce something great!
             </p>
-        </div>
+        </div> --}}
+        <div class="d-flex container-fluid" lc-helper="background" style="height:50vh;background:url({{URL('storage/hero-img-2.jpg')}})  center / cover no-repeat;"></div>
+<div class="container p-5 bg-light" style="margin-top:-100px">
+	<div class="row">
+		<div class="col-md-4 text-center align-self-center">
+			<div class="lc-block border-end border-2 ">
+				<div editable="rich">
+					<p class="display-4 text-secondary">ABOUT US</p>
+				</div>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-md-8">
+			<div class="lc-block ">
+				<div editable="rich">
+					<p class="display-4">Unitop MetalWire Corporation.</p>
+				</div>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+	</div>
+	<div class="row">
+		<div class="col-md-9 offset-md-1">
+			<div class="lc-block mt-5">
+				<div editable="rich">
+					<p class="lead text-secondary">A more than 30 years in business that combines factory production and wholesale, Unitop Metalwire Technologies actively serves the market by engaging in a variety of activities, including project design, product development, large-scale production, and some on-field building.</p>
+					<p class="lead text-secondary"> We are actively serving the Metalwire market in the Philippines, including the NCR, Eastern Visayas, North, and South Luzon markets. Our goals are to "strictly control the quality for survival in the industry and gaining reputation for development of the enterprise" and to continuously expand the local market.
+                        Our constant goal is to be honest and prioritize the demands of our customers. Our motto is "serving clients totally and innovating to serve you best."Everyone is invited to stop by and talk about future collaboration. We are eager to collaborate with you in the coming century when the flow of the global economy sweeps us both together to produce something great! </p>
+				</div>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+	</div>
+</div>
       
         
         <div class="col-12 d-flex justify-content-center align-items-center text-center">

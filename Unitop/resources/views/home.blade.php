@@ -4,55 +4,46 @@
 
     <!-- HERO SECTION START -->
 
-    <div class="container-fluid">
-        <section class="banner-area">
-            <div class="banner-img"></div>
-            <h1>UNITOP METALWIRE CORP.</h1>
-            <h3>We offer customs metal works and fabrications services which can bring to life your architectural vision.</h3>
-            <a class="banner-btn" href="/about">learn more</a>
-        </section>
-   
-    <!-- Info panel -->
-    <div class="row justify-content-center">
-        <div class="col-10 client-panel bg-dark">
-            <h1 class="text-white text-center"> OUR CLIENTS </h1>
-            <div class="row">
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client1.png')}}" alt="employee" class="float-left">
-                    <h4 class="text-white">LEMON SQUARE</h4>
+    <div class="">
+        <div class="container-fluid col-xxl-8">
+            <div class="row flex-lg-nowrap align-items-center g-5">
+                <div class="order-lg-1 w-100">
+                    <img style="clip-path: polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%);" src="{{URL('storage/hero-image.jpg')}}" class="d-block mx-lg-auto img-fluid" alt="unitopLogo" loading="lazy">
                 </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client2.png')}}" alt="hires" class="float-left">
-                    <h4 class="text-white">OISHI</h4>
+                <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
+                    <div class="lc-block mb-4">
+                        <div editable="rich">
+                            <h1 class="fw-bold display-3">We Innovate to serve you best.</h1>
+                        </div>
+                    </div>
+    
+                    <div class="lc-block mb-5">
+                        <div editable="rich">
+                            <p class="rfs-8"> Unitop Metalwire Technologies offer customs metal works and fabrications services which can bring to life your architectural vision. </p>
+                        </div>
+                    </div>
+    
+                    <div class="lc-block mb-6"><a class="btn btn-primary px-4 me-md-2 btn-lg" href="./about.html" role="button">Learn More</a>
+                    </div>
+    
+                    <div class="lc-block mb-5 mt-4">
+                        <div editable="rich">
+                            <p class="fw-bold">Some of our Clients based on trust:</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-975" src="{{URL('storage/client1.png')}}" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-977" src="{{URL('storage/client2.png')}}" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-974" src="{{URL('storage/client3.png')}}" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-967" src="{{URL('storage/client4.png')}}" width="" height="300" srcset="" sizes="" alt=""></div>
+                    </div>
                 </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client3.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">EVER DEPARTMENT</h4>
-                </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client4.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">HOME ALONG</h4>
-                </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client5.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">HSC</h4>
-                </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client6.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">SAVER SQUARE</h4>
-                </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client7.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">SAN JOSE</h4>
-                </div>
-                <div class="col-lg col-sm col-md text-center">
-                    <img src="{{URL('storage/client10.png')}}" alt="security" class="float-left">
-                    <h4 class="text-white">MEGACOOL</h4>
-                </div>
-            </div>
+    
+            </div><!-- /lc-block -->
         </div>
     </div>
-</div>
+
+
     <!-- End Hero Banner -->
 
 <!-- HERO SECTION END -->
